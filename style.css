@@ -191,6 +191,7 @@ h4 {
 
     .img-header {
         margin-top: 40px;
+        flex-shrink: 2;
     }
 }
 
