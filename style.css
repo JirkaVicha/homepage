@@ -134,7 +134,7 @@ h4 {
 
 .quote .container {
     margin: 70px;
-    padding: 0 100px;
+    padding: auto;
 }
 
 .writer {
