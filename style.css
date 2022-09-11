@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background: #1f2937;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 70px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header {
+    background: #1f2937;
+    padding-bottom: 60px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-placeholder {
+    margin-left: 50px;
+    background: rgb(116, 114, 114);
+    width: 100%;
+    color: rgb(227, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 48px;
+    margin: 0;
+    padding: 0 30px 0 0;
+}
+
+p {
+    margin: 0 0 5px;
+    padding: 0;
+    color: #e5e7eb;
+    font-size: 18px;  
+}
+
+button {
+    background: #3882f6;
+    color: #fff;
+    border-radius: 7px;
+    border-style: none;
+    padding: 5px 18px;
+}
+
+h4 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.boxes .container {
+    padding: 10px 0 60px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #7a7c7e;
+    font-size: 18px;
+    max-width: 160px;
+}
+
+.box {
+    border: 3px solid #3882f6;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.quote {
+    background: #e5e7eb;
+    color: #929498;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .container {
+    margin: 70px;
+    padding: 0 100px;
+}
+
+.writer {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom .container {
+    margin: 70px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 10px;
+    color: white;
+}
+
+.bottom button {
+    border: 2px solid white;
+}
+
+.footer {
+   background: #1f2937; 
+}
+
+.footer .container {
+    padding: 30px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .boxes .container {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+
+
+
+
